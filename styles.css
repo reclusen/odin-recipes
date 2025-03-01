@@ -1,0 +1,31 @@
+body {
+    /* background-color: rgba(210, 105, 30); */
+    background: linear-gradient(0.25turn, rgba(210, 105, 30), #fff), no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 100px;
+}
+
+.container a {
+    color:antiquewhite;
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: xx-large;
+    font-style: italic;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
